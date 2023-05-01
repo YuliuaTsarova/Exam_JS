@@ -44,8 +44,7 @@ button:active {
 }
 
 .wrapper {
-    /* border: 2px solid black; */
-    /* width: 910px; */
+    /* border: 2px solid black; */    
      width: 1200px;
     height: 256px;
     margin: 20px auto;
@@ -78,3 +77,5 @@ button:active {
     flex-wrap: wrap;
     gap: 10px;
   }
+
+
