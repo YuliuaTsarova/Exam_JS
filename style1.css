@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 15px 5px;
+}
+
+button:hover {
+    background: rgb(227, 135, 29);
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+.wrapper {
+    /* border: 2px solid black; */
+    /* width: 910px; */
+     width: 1200px;
+    height: 256px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.sliders {
+    width: 1024px;
+    height: 256px;
+    display: flex;   
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.sliders__card {
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+    width: 240px;
+}
+
+.photo {
+    width: 200px;   
+    /* display: none;  */
+    
+  }
+
+  .Photo__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
